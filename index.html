@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor do Texto</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./lapis.png" type="image/x-icon">
+  </head>
+  <body>
+    <header class="title">
+      <div>
+        <h1 class="principal">Editor de texto</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="link"><a href="https://github.com/Juliaprado99" target="_blank">Sobre</a></li>
+          <li class="link"><a href="https://juliaprado99.github.io/calculadora_imc/" target="_blank">Calculadora IMC</a></li>
+          <li class="link">
+            <a href="https://juliaprado99.github.io/conversor-temperatura/" target="_blank">Conversor de Temperatura</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Aqui você pode transformar seu texto da forma que melhor desejar!</h2>
+      <p class="intro">
+        Cole aqui seu texto e selecione utilizando os botões abaixo a
+        transformação que deseja.
+      </p>
+      <div class="editor">
+        <div class="text-area">
+          <textarea
+            name="texto"
+            id="texto"
+            cols="80"
+            rows="10"
+            placeholder="Escreva seu texto aqui"
+          ></textarea>
+        </div>
+        <div id="transform"></div>
+      </div>
+      <div class="botao">
+        <button class="btn" onclick="letraG()">TODAS AS LETRAS MAIUSCULAS</button>
+        <button class="btn" onclick="letraP()">todas as letras minusculas</button>
+        <button class="btn" onclick="letraM()">Só a primeira letra maiuscula</button>
+        <button class="btn" onclick="letraI()"><i>Todas as letras em italico</i></button>
+        <button class="btn" onclick="letraN()"><b>Todas as letras em negrito</b></button>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
