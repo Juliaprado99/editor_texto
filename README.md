@@ -10,4 +10,4 @@ Um site que usa funções de String para modificar o texto digitado pelo usuario
 * **CSS**: Utilizado para estilizar de forma simples o site.
 
 * **JavaScript**: Utilizado para criar as funções string que capturam o digitado pelo usuario no input e para devolver ao usuario a string já modificada conforme solicitação via botão.
-* 
+
